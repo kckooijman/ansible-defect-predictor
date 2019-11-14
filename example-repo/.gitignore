@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+__pycache__/
+venv/
+*.egg-info
+*.pyc
+build/
+dist/
+_book/
+node_modules/

@@ -14,7 +14,9 @@ python3 ansibleDefectPredictor.py <path-to-ansible-file>
 ```
   
 ### main/ansibleDefectPredictor.py
-  Script that opens file the file in the specified path, extracts the metrics:
+  Script that opens file the file in the specified path, extracts the metrics as mentioned below, using the [ansible-metrics](https://github.com/stefanodallapalma/ansible-metrics) tool. Based on the values of these metrics, a Naive Bayes classifier classifies the file as sound or suspicious. The tool returns the classification and the calculated metrics.  
+  
+  The following metrics are extracted and used by the tool:
   - Average Task Size
   - Depth
   - Entropy
@@ -57,6 +59,6 @@ python3 ansibleDefectPredictor.py <path-to-ansible-file>
   - Tasks with a Unique Name
   - Unique Names
   
-Using the ansible-metrics tool. Based on the values of these metrics, a Naive Bayes classifier classifies the file as sound or suspicious. The tool returns the classification and the calculated metrics. 
+
 
 

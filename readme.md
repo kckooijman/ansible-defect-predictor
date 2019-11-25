@@ -1,5 +1,6 @@
 A tool that reads Ansible files from your repository, derives metrics from the files, and returns a prediction about possible defects in each file.
 
+![Model Diagram](https://github.com/kckooijman/ansible-defect-predictor/blob/master/images/Prediction_Model_Diagram.png)
 ### ansible-metrics
   A repository to extract 50 different metrics from Ansible files.
   See the [Ansible Metric Extractor](https://github.com/stefanodallapalma/ansible-metrics) for more info and documentation.

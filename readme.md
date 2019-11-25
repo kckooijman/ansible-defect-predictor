@@ -2,7 +2,7 @@ A tool that reads Ansible files from your repository, derives metrics from the f
 
 ### ansible-metrics
   A repository to extract 50 different metrics from Ansible files.
-  See https://github.com/stefanodallapalma/ansible-metrics for more info and documentation.
+  See the [Ansible Metric Extractor](https://github.com/stefanodallapalma/ansible-metrics) for more info and documentation.
   
 ### main/ansibleDefectPredictor.py
   Script that opens file the file in the specified path, extracts the metrics:
@@ -49,8 +49,6 @@ A tool that reads Ansible files from your repository, derives metrics from the f
   - Unique Names
   
 Using the ansible-metrics tool. Based on the values of these metrics, a Naive Bayes classifier classifies the file as sound or suspicious. The tool returns the classification and the calculated metrics. 
-
-For more information on the metrics, see the [Ansible Metric Extractor](https://github.com/stefanodallapalma/ansible-metrics/tree/master/docs)
 
 ### Using the script
 

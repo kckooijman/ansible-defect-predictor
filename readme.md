@@ -4,6 +4,13 @@ A tool that reads Ansible files from your repository, derives metrics from the f
   A repository to extract 50 different metrics from Ansible files.
   See the [Ansible Metric Extractor](https://github.com/stefanodallapalma/ansible-metrics) for more info and documentation.
   
+### Using the script
+
+```
+pip3 install -r requirements.txt
+python3 ansibleDefectPredictor.py <path-to-ansible-file>
+```
+  
 ### main/ansibleDefectPredictor.py
   Script that opens file the file in the specified path, extracts the metrics:
   - Average Task Size
@@ -50,9 +57,4 @@ A tool that reads Ansible files from your repository, derives metrics from the f
   
 Using the ansible-metrics tool. Based on the values of these metrics, a Naive Bayes classifier classifies the file as sound or suspicious. The tool returns the classification and the calculated metrics. 
 
-### Using the script
 
-```
-pip3 install -r requirements.txt
-python3 ansibleDefectPredictor.py <path-to-ansible-file>
-```
